@@ -22,6 +22,7 @@ function App() {
       element: <Layout />,
       children: [
         { index: true, element: <Home /> },
+        { path: "StartFramework", element: <Home /> },
         { path: "contact", element: <Contact /> },
         { path: "portfolio", element: <Portfolio /> },
         { path: "about", element: <About /> },
