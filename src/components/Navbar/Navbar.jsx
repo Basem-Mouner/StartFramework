@@ -1,15 +1,13 @@
 import React, { useContext }  from "react";
 import { useEffect, useState } from "react";
-import style from "./Navbar.module.css";
-import logo from "../../assets/react.svg";
 import { Link, NavLink } from "react-router-dom";
-import { CounterContext } from "../../Context/UserContext";
+// import { CounterContext } from "../../Context/UserContext";
 export default function Navbar() {
-  let { counter } = useContext(CounterContext);
+  // let { counter } = useContext(CounterContext);
 
   useEffect(() => {
     
-let navhight = document.querySelector(".navbar");
+let navhight = document.querySelector(".navBar");
 
 window.addEventListener("scroll", (e) => {
   if (window.scrollY < 80) {
@@ -31,7 +29,7 @@ window.addEventListener("scroll", (e) => {
     <>
       
 
-<nav className="bg-[#2c3e50] navbar    border-gray-200 dark:bg-gray-900  fixed top-0 left-0 right-0 z-50 transition-all duration-1000">
+<nav className="bg-[#2c3e50] navBar    border-gray-200 dark:bg-gray-900  fixed top-0 left-0 right-0 z-50 transition-all duration-1000">
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
     <Link to="" className="flex items-center space-x-3 rtl:space-x-reverse">
       <span className="self-center text-3xl md:text-5xl font-bold whitespace-nowrap text-white">Start Framework</span>
