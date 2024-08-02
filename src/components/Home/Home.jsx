@@ -19,7 +19,7 @@ export default function Home() {
         <div className="bg-[#1abc9c] flex flex-col items-center   md:mt-12 p-20">
           <img src={homeImg} width={300} className="" alt="home " />
           <div className="mt-5">
-            <h2 className="md:text-6xl text-3xl  font-bold text-white ">start Framework</h2>
+            <h2 className="md:text-6xl text-2xl  font-bold text-white ">start Framework</h2>
 
             <div className="flex flex-row  justify-center mt-4">
               <div className=" w-24 h-[4px] bg-white mt-2 mr-2"></div>
