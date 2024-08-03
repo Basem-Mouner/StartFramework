@@ -34,10 +34,10 @@ function App() {
 
 
   return (
-    
-      <CounterContextProvider>
-        <RouterProvider router={routing}></RouterProvider>;
-      </CounterContextProvider>   
+    <RouterProvider router={routing}></RouterProvider>
+    // <CounterContextProvider>
+    //   <RouterProvider router={routing}></RouterProvider>;
+    // </CounterContextProvider>
   );
 }
 
